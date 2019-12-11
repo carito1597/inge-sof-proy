@@ -2,5 +2,5 @@ language: ruby
 rvm: 2.6.0
 script:
   - "bundle install"
-  - "bundle exec rake spec"
+  - "bundle exec rspec"
   - "bundle exec cucumber"
