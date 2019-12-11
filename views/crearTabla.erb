@@ -1,0 +1,41 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<div class="container">
+    <h1>CREAR TERRENO</h1>
+    <form method='post' action='/actionCrearTabla'>
+        <div class="form-group">
+        <label>Ancho:</label><br>
+        <input class="form-control" type='text' name='ancho'><br>
+        </div>
+        <div class="form-group">
+        <label>Alto: </label><br>
+        <input class="form-control" type='text' name='alto'><br>
+        </div>
+        <input class="btn btn-primary" type='submit' value ='crear'>
+        <br>
+    </form>
+    <form action="/principal">
+        <input class="btn btn-primary" type="submit" value="Ir pagina principal">
+    </form>
+</div>
+
+<style type="text/css" media="screen">
+
+body {
+    background-image: url("http://files.all-free-download.com//downloadfiles/wallpapers/1920_1080/wall_e_game_4256.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container{
+     <%# display:inline-block; %>
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10rem;
+    text-align:center;
+    width:30%;
+    background-color:rgba(207, 204, 201, 0.8);
+}
+</style>
