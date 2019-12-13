@@ -1,4 +1,4 @@
-Given("entro a crear tabla") do
+Given("entro a crear un terreno") do
     visit '/crearTabla'
   end
 
@@ -11,6 +11,6 @@ Given("entro a crear tabla") do
   When("hago click en  {string}") do |boton|
     click_button(boton) # Write code here that turns the phrase above into concrete actions
   end
-  Then("deberia ver la dimension de mi tabla {string}")do|mensaje|
+  Then("deberia ver la dimension de mi terreno {string}")do|mensaje|
     last_response.body.should=~ /#{mensaje}/m
   end 

@@ -1,5 +1,7 @@
 require 'Juego.rb'
 
+
+
 RSpec.describe Juego do
     juego=Juego.new
     it 'Deberia devolver 7*8' do

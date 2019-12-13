@@ -4,7 +4,7 @@ end
 When("elijo {string}") do |boton|
     click_button(boton) # Write code here that turns the phrase above into concrete actions
 end
-Then("Deberia ver la pagina para crear tablas")do
+Then("Deberia ver la pagina para crear terreno")do
 visit '/crearTabla'
 end 
 

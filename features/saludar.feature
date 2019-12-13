@@ -1,13 +1,13 @@
 Feature:
-    Como jugador 
+    Como controlador de robots 
     Quiero ser saludado por mi nombre
     Para sentir la aplicacion mas personalizada
 
     Scenario:
     Given visito la pagina principal
-    When ingreso "Juan" en el campo "nombre"
+    When ingreso "Andre" en el campo "nombre"
     And presiono el boton "Ok"
-    Then Deberia ver "Juan" 
+    Then Deberia ver "Andre" 
 
     Scenario:
     Given visito la pagina principal
@@ -20,6 +20,12 @@ Feature:
     When ingreso "Andi" en el campo "nombre"
     And presiono el boton "Ok"
     Then Deberia ver "Andi" 
+
+      Scenario:
+    Given visito la pagina principal
+    When ingreso "Andrea" en el campo "nombre"
+    And presiono el boton "Ok"
+    Then Deberia ver "Andrea" 
 
 
 

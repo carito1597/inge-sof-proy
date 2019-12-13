@@ -5,8 +5,8 @@ Feature:
 
     Scenario:
     Given visito la page principal
-    When elijo "Crear Tabla"
-    Then Deberia ver la pagina para crear tablas 
+    When elijo "Crear Terreno"
+    Then Deberia ver la pagina para crear terreno 
 
 
     Scenario:

@@ -2,10 +2,6 @@
     visit '/'
   end
   
-  Then("deberia ver un mensaje {string}") do |mensaje|
-    last_response.body.should =~ /#{mensaje}/m
-  end
-
   When("ingreso {string} en el campo {string}") do |valor,campo|
     fill_in(campo, :with => valor)
   end

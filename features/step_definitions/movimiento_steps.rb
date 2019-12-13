@@ -10,12 +10,12 @@ Given("entro a mover robot") do
 When("hago click en {string}") do |boton|
   click_button(boton) # Write code here that turns the phrase above into concrete actions
 end
-Then("deberia avanzar mi robot")do
+Then("deberia avanzar mi robot segun su orientacion")do
 visit '/ubicacionRobot'
 end 
-Then("deberia ver mirar a la izquierda segun su orientacion")do
+Then("deberia mirar a la izquierda segun su orientacion")do
 visit '/ubicacionRobot'
 end 
-Then("deberia ver mirar a la Derecha segun su orientacion")do
+Then("deberia mirar a la Derecha segun su orientacion")do
 visit '/ubicacionRobot'
 end 
