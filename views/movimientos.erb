@@ -3,21 +3,25 @@
 <div class="container">
     <h1>Mueve tu robot</h1>
     <div class="alert alert-info text-center" >
+        
         <label>Tamanio del terreno</label>  
         <p>(<%=$ancho%>,<%=$alto%>)</p> 
         <label>Posicion del robot (X,Y)</label>  
-        <p>(<%=$posicionX.to_s%>,<%=$posicionY.to_s%>,<%=$orientacion.to_s%>)</p>
+        <p>(<%=$posicionX%>,<%=$posicionY%>,<%=$orientacion%>)</p>
     </div>
     <form method='post' action='/actionMover'>
+       
         <div class="form-group">
             <label>Movimientos</label>
-            <input class="form-control" type='text' name='movimiento'>
+            <input class="form-control" type='text' name='movimiento1'>
         </div>
         <input class="btn btn-primary" type='submit' value ='ejecutar'>
+       
     </form>
     <form action="/principal">
         <input class="btn btn-primary" type="submit" value="home">
     </form>
+
 </div>
 
 <style type="text/css" media="screen">
@@ -31,7 +35,6 @@
     }
 
     .container{
-        <%# display:inline-block; %>
         margin-left:auto;
         margin-right:auto;
         margin-top:10rem;
