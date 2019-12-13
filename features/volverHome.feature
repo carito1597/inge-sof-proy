@@ -15,6 +15,6 @@ When presiona selecciono el boton "home"
 Then ir a la pagina principal 
 
 Scenario: 
-Given entro a mover robot 
+Given entro a mover roboot 
 When presiona selecciono el boton "home"
 Then ir a la pagina principal 

@@ -6,7 +6,7 @@ Given ("entro a ubicar robot") do
     visit '/ubicaRobot'
 end
 
-Given("entro a mover robot ") do
+Given("entro a mover roboot") do
     visit '/movimientos'
 end
 

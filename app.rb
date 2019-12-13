@@ -26,6 +26,10 @@ get '/principal' do
   erb :principal
 end
 
+get '/movimientos' do
+  erb :movimientos
+end
+
 post '/actionUbicar' do
   $posicionX=params[:posicionX]
   $posicionY=params[:posicionY]
@@ -43,12 +47,7 @@ post '/actionCrearTabla' do
   erb :principal
 end
 
-get '/movimientos' do
-  erb :movimientos
-end
-
 post '/actionMover' do
-  'hol'
   $movimiento=params[:movimiento]
   jueguito.generar($movimiento)
   erb :movimientos

@@ -8,5 +8,4 @@ Para que pueda moverse en el terreno
 Scenario: 
 Given entro a mover robot
 When ingreso la letra "A" en el campo "movimiento"
-And hago click en "ejecutar"
 Then deberia avanzar mi robot segun su orientacion
