@@ -5825,3 +5825,267 @@ D, [2019-12-13T06:37:13.532664 #29504] DEBUG -- : REQUESTING PAGE: GET /principa
 D, [2019-12-13T06:37:13.537546 #29504] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
 D, [2019-12-13T06:37:13.541411 #29504] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
 D, [2019-12-13T06:37:13.543666 #29504] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:05:00.154204 #30072] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T07:05:00.190485 #30072] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:05:00.193344 #30072] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T07:05:00.196405 #30072] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:05:00.199053 #30072] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T07:05:00.202943 #30072] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:05:00.206015 #30072] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T07:05:00.210344 #30072] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:05:00.212997 #30072] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {}
+D, [2019-12-13T07:05:00.216008 #30072] DEBUG -- : REQUESTING PAGE: GET /crearTabla with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:05:00.218030 #30072] DEBUG -- : REQUESTING PAGE: GET /crearTabla with {} and HTTP headers {"HTTP_REFERER"=>"/crearTabla"}
+D, [2019-12-13T07:05:00.222440 #30072] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {}
+D, [2019-12-13T07:05:00.226610 #30072] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:05:00.228213 #30072] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:05:00.230443 #30072] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {}
+D, [2019-12-13T07:05:00.233832 #30072] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:05:00.236964 #30072] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:05:00.241449 #30072] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T07:05:00.245365 #30072] DEBUG -- : REQUESTING PAGE: POST /saludar with {"nombre"=>"Andre"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T07:05:00.257184 #30072] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T07:05:00.260886 #30072] DEBUG -- : REQUESTING PAGE: POST /saludar with {"nombre"=>"Carito"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T07:05:00.264353 #30072] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T07:05:00.270285 #30072] DEBUG -- : REQUESTING PAGE: POST /saludar with {"nombre"=>"Andi"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T07:05:00.275840 #30072] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T07:05:00.279190 #30072] DEBUG -- : REQUESTING PAGE: POST /saludar with {"nombre"=>"Andrea"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T07:05:00.282919 #30072] DEBUG -- : REQUESTING PAGE: GET /crearTabla with {} and HTTP headers {}
+D, [2019-12-13T07:05:00.291250 #30072] DEBUG -- : REQUESTING PAGE: POST /actionCrearTabla with {"ancho"=>"5", "alto"=>"4"} and HTTP headers {"HTTP_REFERER"=>"/crearTabla"}
+D, [2019-12-13T07:05:00.295793 #30072] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T07:05:00.310372 #30072] DEBUG -- : REQUESTING PAGE: POST /actionUbicar with {"posicionX"=>"3", "posicionY"=>"4", "orientacion"=>"N"} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:05:00.313709 #30072] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T07:05:00.319990 #30072] DEBUG -- : REQUESTING PAGE: POST /actionUbicar with {"posicionX"=>"5", "posicionY"=>"10", "orientacion"=>"E"} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:05:00.326341 #30072] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T07:05:00.331955 #30072] DEBUG -- : REQUESTING PAGE: POST /actionUbicar with {"posicionX"=>"6", "posicionY"=>"1", "orientacion"=>"O"} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:05:00.337477 #30072] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T07:05:00.344426 #30072] DEBUG -- : REQUESTING PAGE: POST /actionUbicar with {"posicionX"=>"7", "posicionY"=>"2", "orientacion"=>"S"} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:05:00.350709 #30072] DEBUG -- : REQUESTING PAGE: GET /crearTabla with {} and HTTP headers {}
+D, [2019-12-13T07:05:00.355836 #30072] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/crearTabla"}
+D, [2019-12-13T07:05:00.358662 #30072] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:05:00.361317 #30072] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T07:05:00.363978 #30072] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:05:00.366175 #30072] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:05:00.371065 #30072] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T07:05:00.376509 #30072] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:05:00.378662 #30072] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:18:26.386100 #30651] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T07:18:26.427850 #30651] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:18:26.430690 #30651] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T07:18:26.434074 #30651] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:18:26.437049 #30651] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T07:18:26.441137 #30651] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:18:26.444075 #30651] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T07:18:26.448577 #30651] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:18:26.451988 #30651] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {}
+D, [2019-12-13T07:18:26.458342 #30651] DEBUG -- : REQUESTING PAGE: GET /crearTabla with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:18:26.461250 #30651] DEBUG -- : REQUESTING PAGE: GET /crearTabla with {} and HTTP headers {"HTTP_REFERER"=>"/crearTabla"}
+D, [2019-12-13T07:18:26.463991 #30651] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {}
+D, [2019-12-13T07:18:26.467274 #30651] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:18:26.470123 #30651] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:18:26.474545 #30651] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {}
+D, [2019-12-13T07:18:26.479155 #30651] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:18:26.481227 #30651] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:18:26.484187 #30651] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T07:18:26.490825 #30651] DEBUG -- : REQUESTING PAGE: POST /saludar with {"nombre"=>"Andre"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T07:18:26.506034 #30651] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T07:18:26.511838 #30651] DEBUG -- : REQUESTING PAGE: POST /saludar with {"nombre"=>"Carito"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T07:18:26.515603 #30651] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T07:18:26.521095 #30651] DEBUG -- : REQUESTING PAGE: POST /saludar with {"nombre"=>"Andi"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T07:18:26.527500 #30651] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T07:18:26.531923 #30651] DEBUG -- : REQUESTING PAGE: POST /saludar with {"nombre"=>"Andrea"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T07:18:26.537765 #30651] DEBUG -- : REQUESTING PAGE: GET /crearTabla with {} and HTTP headers {}
+D, [2019-12-13T07:18:26.545695 #30651] DEBUG -- : REQUESTING PAGE: POST /actionCrearTabla with {"ancho"=>"5", "alto"=>"4"} and HTTP headers {"HTTP_REFERER"=>"/crearTabla"}
+D, [2019-12-13T07:18:26.549531 #30651] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T07:18:26.563733 #30651] DEBUG -- : REQUESTING PAGE: POST /actionUbicar with {"posicionX"=>"3", "posicionY"=>"4", "orientacion"=>"N"} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:18:26.567180 #30651] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T07:18:26.575740 #30651] DEBUG -- : REQUESTING PAGE: POST /actionUbicar with {"posicionX"=>"5", "posicionY"=>"10", "orientacion"=>"E"} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:18:26.579689 #30651] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T07:18:26.585407 #30651] DEBUG -- : REQUESTING PAGE: POST /actionUbicar with {"posicionX"=>"6", "posicionY"=>"1", "orientacion"=>"O"} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:18:26.591459 #30651] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T07:18:26.596992 #30651] DEBUG -- : REQUESTING PAGE: POST /actionUbicar with {"posicionX"=>"7", "posicionY"=>"2", "orientacion"=>"S"} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:18:26.604038 #30651] DEBUG -- : REQUESTING PAGE: GET /crearTabla with {} and HTTP headers {}
+D, [2019-12-13T07:18:26.607927 #30651] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/crearTabla"}
+D, [2019-12-13T07:18:26.609910 #30651] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:18:26.612517 #30651] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T07:18:26.615864 #30651] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:18:26.618922 #30651] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:18:26.625558 #30651] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T07:18:26.629386 #30651] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:18:26.631802 #30651] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:18:50.946300 #30664] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T07:18:50.986734 #30664] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:18:50.988963 #30664] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T07:18:50.991721 #30664] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:18:50.994023 #30664] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T07:18:50.999069 #30664] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:18:51.001811 #30664] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T07:18:51.004347 #30664] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:18:51.009478 #30664] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {}
+D, [2019-12-13T07:18:51.012924 #30664] DEBUG -- : REQUESTING PAGE: GET /crearTabla with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:18:51.014756 #30664] DEBUG -- : REQUESTING PAGE: GET /crearTabla with {} and HTTP headers {"HTTP_REFERER"=>"/crearTabla"}
+D, [2019-12-13T07:18:51.016889 #30664] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {}
+D, [2019-12-13T07:18:51.020656 #30664] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:18:51.022790 #30664] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:18:51.027393 #30664] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {}
+D, [2019-12-13T07:18:51.031408 #30664] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:18:51.034397 #30664] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:18:51.037592 #30664] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T07:18:51.044280 #30664] DEBUG -- : REQUESTING PAGE: POST /saludar with {"nombre"=>"Andre"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T07:18:51.055305 #30664] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T07:18:51.059231 #30664] DEBUG -- : REQUESTING PAGE: POST /saludar with {"nombre"=>"Carito"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T07:18:51.061898 #30664] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T07:18:51.066157 #30664] DEBUG -- : REQUESTING PAGE: POST /saludar with {"nombre"=>"Andi"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T07:18:51.069149 #30664] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T07:18:51.073199 #30664] DEBUG -- : REQUESTING PAGE: POST /saludar with {"nombre"=>"Andrea"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T07:18:51.078510 #30664] DEBUG -- : REQUESTING PAGE: GET /crearTabla with {} and HTTP headers {}
+D, [2019-12-13T07:18:51.083808 #30664] DEBUG -- : REQUESTING PAGE: POST /actionCrearTabla with {"ancho"=>"5", "alto"=>"4"} and HTTP headers {"HTTP_REFERER"=>"/crearTabla"}
+D, [2019-12-13T07:18:51.087462 #30664] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T07:18:51.102570 #30664] DEBUG -- : REQUESTING PAGE: POST /actionUbicar with {"posicionX"=>"3", "posicionY"=>"4", "orientacion"=>"N"} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:18:51.107350 #30664] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T07:18:51.114686 #30664] DEBUG -- : REQUESTING PAGE: POST /actionUbicar with {"posicionX"=>"5", "posicionY"=>"10", "orientacion"=>"E"} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:18:51.118692 #30664] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T07:18:51.126517 #30664] DEBUG -- : REQUESTING PAGE: POST /actionUbicar with {"posicionX"=>"6", "posicionY"=>"1", "orientacion"=>"O"} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:18:51.130913 #30664] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T07:18:51.136767 #30664] DEBUG -- : REQUESTING PAGE: POST /actionUbicar with {"posicionX"=>"7", "posicionY"=>"2", "orientacion"=>"S"} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:18:51.143747 #30664] DEBUG -- : REQUESTING PAGE: GET /crearTabla with {} and HTTP headers {}
+D, [2019-12-13T07:18:51.147239 #30664] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/crearTabla"}
+D, [2019-12-13T07:18:51.148785 #30664] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:18:51.151018 #30664] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T07:18:51.154877 #30664] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:18:51.158615 #30664] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:18:51.163413 #30664] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T07:18:51.166473 #30664] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:18:51.168950 #30664] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:27:52.216953 #31207] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T07:27:52.259070 #31207] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:27:52.261490 #31207] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T07:27:52.264507 #31207] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:27:52.266926 #31207] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T07:27:52.270136 #31207] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:27:52.272722 #31207] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T07:27:52.276705 #31207] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:27:52.279880 #31207] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {}
+D, [2019-12-13T07:27:52.283085 #31207] DEBUG -- : REQUESTING PAGE: GET /crearTabla with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:27:52.285404 #31207] DEBUG -- : REQUESTING PAGE: GET /crearTabla with {} and HTTP headers {"HTTP_REFERER"=>"/crearTabla"}
+D, [2019-12-13T07:27:52.288725 #31207] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {}
+D, [2019-12-13T07:27:52.293904 #31207] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:27:52.296011 #31207] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:27:52.298647 #31207] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {}
+D, [2019-12-13T07:27:52.301858 #31207] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:27:52.303979 #31207] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:27:52.308196 #31207] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T07:27:52.313003 #31207] DEBUG -- : REQUESTING PAGE: POST /saludar with {"nombre"=>"Andre"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T07:27:52.324739 #31207] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T07:27:52.330435 #31207] DEBUG -- : REQUESTING PAGE: POST /saludar with {"nombre"=>"Carito"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T07:27:52.333336 #31207] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T07:27:52.336668 #31207] DEBUG -- : REQUESTING PAGE: POST /saludar with {"nombre"=>"Andi"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T07:27:52.342501 #31207] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T07:27:52.347629 #31207] DEBUG -- : REQUESTING PAGE: POST /saludar with {"nombre"=>"Andrea"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T07:27:52.350390 #31207] DEBUG -- : REQUESTING PAGE: GET /crearTabla with {} and HTTP headers {}
+D, [2019-12-13T07:27:52.355882 #31207] DEBUG -- : REQUESTING PAGE: POST /actionCrearTabla with {"ancho"=>"5", "alto"=>"4"} and HTTP headers {"HTTP_REFERER"=>"/crearTabla"}
+D, [2019-12-13T07:27:52.361495 #31207] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T07:27:52.376406 #31207] DEBUG -- : REQUESTING PAGE: POST /actionUbicar with {"posicionX"=>"3", "posicionY"=>"4", "orientacion"=>"N"} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:27:52.381792 #31207] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T07:27:52.386115 #31207] DEBUG -- : REQUESTING PAGE: POST /actionUbicar with {"posicionX"=>"5", "posicionY"=>"10", "orientacion"=>"E"} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:27:52.392021 #31207] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T07:27:52.398583 #31207] DEBUG -- : REQUESTING PAGE: POST /actionUbicar with {"posicionX"=>"6", "posicionY"=>"1", "orientacion"=>"O"} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:27:52.401435 #31207] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T07:27:52.407789 #31207] DEBUG -- : REQUESTING PAGE: POST /actionUbicar with {"posicionX"=>"7", "posicionY"=>"2", "orientacion"=>"S"} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:27:52.415578 #31207] DEBUG -- : REQUESTING PAGE: GET /crearTabla with {} and HTTP headers {}
+D, [2019-12-13T07:27:52.418537 #31207] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/crearTabla"}
+D, [2019-12-13T07:27:52.420983 #31207] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:27:52.426523 #31207] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T07:27:52.430988 #31207] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:27:52.432692 #31207] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:27:52.435446 #31207] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T07:27:52.438773 #31207] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:27:52.442298 #31207] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:29:10.909101 #31236] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T07:29:10.949253 #31236] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:29:10.952598 #31236] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T07:29:10.957912 #31236] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:29:10.961255 #31236] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T07:29:10.964160 #31236] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:29:10.966785 #31236] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T07:29:10.971230 #31236] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:29:10.974444 #31236] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {}
+D, [2019-12-13T07:29:10.978134 #31236] DEBUG -- : REQUESTING PAGE: GET /crearTabla with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:29:10.980592 #31236] DEBUG -- : REQUESTING PAGE: GET /crearTabla with {} and HTTP headers {"HTTP_REFERER"=>"/crearTabla"}
+D, [2019-12-13T07:29:10.983614 #31236] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {}
+D, [2019-12-13T07:29:10.988421 #31236] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:29:10.991814 #31236] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:29:10.995895 #31236] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {}
+D, [2019-12-13T07:29:10.998860 #31236] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:29:11.001078 #31236] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:29:11.005515 #31236] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T07:29:11.010333 #31236] DEBUG -- : REQUESTING PAGE: POST /saludar with {"nombre"=>"Andre"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T07:29:11.022757 #31236] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T07:29:11.028563 #31236] DEBUG -- : REQUESTING PAGE: POST /saludar with {"nombre"=>"Carito"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T07:29:11.032026 #31236] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T07:29:11.037202 #31236] DEBUG -- : REQUESTING PAGE: POST /saludar with {"nombre"=>"Andi"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T07:29:11.042801 #31236] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T07:29:11.047153 #31236] DEBUG -- : REQUESTING PAGE: POST /saludar with {"nombre"=>"Andrea"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T07:29:11.050214 #31236] DEBUG -- : REQUESTING PAGE: GET /crearTabla with {} and HTTP headers {}
+D, [2019-12-13T07:29:11.057025 #31236] DEBUG -- : REQUESTING PAGE: POST /actionCrearTabla with {"ancho"=>"5", "alto"=>"4"} and HTTP headers {"HTTP_REFERER"=>"/crearTabla"}
+D, [2019-12-13T07:29:11.062580 #31236] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T07:29:11.078825 #31236] DEBUG -- : REQUESTING PAGE: POST /actionUbicar with {"posicionX"=>"3", "posicionY"=>"4", "orientacion"=>"N"} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:29:11.081985 #31236] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T07:29:11.089247 #31236] DEBUG -- : REQUESTING PAGE: POST /actionUbicar with {"posicionX"=>"5", "posicionY"=>"10", "orientacion"=>"E"} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:29:11.093570 #31236] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T07:29:11.099341 #31236] DEBUG -- : REQUESTING PAGE: POST /actionUbicar with {"posicionX"=>"6", "posicionY"=>"1", "orientacion"=>"O"} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:29:11.103088 #31236] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T07:29:11.110428 #31236] DEBUG -- : REQUESTING PAGE: POST /actionUbicar with {"posicionX"=>"7", "posicionY"=>"2", "orientacion"=>"S"} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:29:11.116803 #31236] DEBUG -- : REQUESTING PAGE: GET /crearTabla with {} and HTTP headers {}
+D, [2019-12-13T07:29:11.121385 #31236] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/crearTabla"}
+D, [2019-12-13T07:29:11.124883 #31236] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:29:11.128991 #31236] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T07:29:11.131603 #31236] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T07:29:11.133839 #31236] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T07:29:11.138136 #31236] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T07:29:11.142262 #31236] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T07:29:11.145520 #31236] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T09:06:56.557957 #31932] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T09:06:56.581800 #31932] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T09:06:56.585253 #31932] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T09:06:56.590040 #31932] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T09:06:56.594136 #31932] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T09:06:56.597860 #31932] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T09:06:56.599897 #31932] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T09:06:56.604017 #31932] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T09:06:56.608586 #31932] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {}
+D, [2019-12-13T09:06:56.612419 #31932] DEBUG -- : REQUESTING PAGE: GET /crearTabla with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T09:06:56.614478 #31932] DEBUG -- : REQUESTING PAGE: GET /crearTabla with {} and HTTP headers {"HTTP_REFERER"=>"/crearTabla"}
+D, [2019-12-13T09:06:56.617064 #31932] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {}
+D, [2019-12-13T09:06:56.619849 #31932] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T09:06:56.622005 #31932] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T09:06:56.629042 #31932] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {}
+D, [2019-12-13T09:06:56.632433 #31932] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T09:06:56.634620 #31932] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T09:06:56.637663 #31932] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T09:06:56.656696 #31932] DEBUG -- : REQUESTING PAGE: POST /saludar with {"nombre"=>"Andre"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T09:06:56.683316 #31932] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T09:06:56.690023 #31932] DEBUG -- : REQUESTING PAGE: POST /saludar with {"nombre"=>"Carito"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T09:06:56.694713 #31932] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T09:06:56.702745 #31932] DEBUG -- : REQUESTING PAGE: POST /saludar with {"nombre"=>"Andi"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T09:06:56.706480 #31932] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2019-12-13T09:06:56.710331 #31932] DEBUG -- : REQUESTING PAGE: POST /saludar with {"nombre"=>"Andrea"} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2019-12-13T09:06:56.713964 #31932] DEBUG -- : REQUESTING PAGE: GET /crearTabla with {} and HTTP headers {}
+D, [2019-12-13T09:06:56.718623 #31932] DEBUG -- : REQUESTING PAGE: POST /actionCrearTabla with {"ancho"=>"5", "alto"=>"4"} and HTTP headers {"HTTP_REFERER"=>"/crearTabla"}
+D, [2019-12-13T09:06:56.727570 #31932] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T09:06:56.733735 #31932] DEBUG -- : REQUESTING PAGE: POST /actionUbicar with {"posicionX"=>"3", "posicionY"=>"4", "orientacion"=>"N"} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T09:06:56.741228 #31932] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T09:06:56.751608 #31932] DEBUG -- : REQUESTING PAGE: POST /actionUbicar with {"posicionX"=>"5", "posicionY"=>"10", "orientacion"=>"E"} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T09:06:56.755090 #31932] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T09:06:56.761877 #31932] DEBUG -- : REQUESTING PAGE: POST /actionUbicar with {"posicionX"=>"6", "posicionY"=>"1", "orientacion"=>"O"} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T09:06:56.765955 #31932] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T09:06:56.777511 #31932] DEBUG -- : REQUESTING PAGE: POST /actionUbicar with {"posicionX"=>"7", "posicionY"=>"2", "orientacion"=>"S"} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T09:06:56.791505 #31932] DEBUG -- : REQUESTING PAGE: GET /crearTabla with {} and HTTP headers {}
+D, [2019-12-13T09:06:56.796388 #31932] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/crearTabla"}
+D, [2019-12-13T09:06:56.804346 #31932] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T09:06:56.809506 #31932] DEBUG -- : REQUESTING PAGE: GET /ubicaRobot with {} and HTTP headers {}
+D, [2019-12-13T09:06:56.812859 #31932] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/ubicaRobot"}
+D, [2019-12-13T09:06:56.815164 #31932] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
+D, [2019-12-13T09:06:56.819230 #31932] DEBUG -- : REQUESTING PAGE: GET /movimientos with {} and HTTP headers {}
+D, [2019-12-13T09:06:56.822990 #31932] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/movimientos"}
+D, [2019-12-13T09:06:56.825896 #31932] DEBUG -- : REQUESTING PAGE: GET /principal with {} and HTTP headers {"HTTP_REFERER"=>"/principal"}
