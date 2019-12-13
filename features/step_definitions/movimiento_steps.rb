@@ -7,12 +7,6 @@ Given("entro a mover robot") do
   end
 
 
-Then("deberia avanzar mi robot segun su orientacion")do
-visit '/movimientos'
-end 
-Then("deberia mirar a la izquierda segun su orientacion")do
-visit '/movimientos'
-end 
-Then("deberia mirar a la Derecha segun su orientacion")do
+Then("deberia ir a movimientoss")do
 visit '/movimientos'
 end 

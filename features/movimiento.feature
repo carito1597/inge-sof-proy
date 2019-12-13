@@ -1,15 +1,26 @@
 Feature: 
 
 Como controlador de robots 
-Quiero cambiar poder cambiar la orientacion de mi robot
-Para que mi robot cambie su orientacion
+Quiero mover mi robot
+Para que mi robot cambie su posicion
+
+Scenario: 
+Given entro a mover robot
+When ingreso la letra "A" en el campo "movimiento1"
+Then deberia ir a movimientoss
 
 Scenario: 
 Given entro a mover robot
 When ingreso la letra "I" en el campo "movimiento1"
-Then deberia mirar a la izquierda segun su orientacion
+Then deberia ir a movimientoss
 
 Scenario: 
 Given entro a mover robot
 When ingreso la letra "D" en el campo "movimiento1"
-Then deberia mirar a la Derecha segun su orientacion
+Then deberia ir a movimientoss
+
+
+Scenario: 
+Given entro a mover robot
+When ingreso la letra "AIDDD" en el campo "movimiento1"
+Then deberia ir a movimientoss

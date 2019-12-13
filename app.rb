@@ -2,18 +2,15 @@ require 'sinatra'
 require './lib/Prueba'
 
 
-def initialize()
+
   $posicionX=0
   $posicionY=0
   $alto=0
   $ancho=0
   $orientacion="" 
-  $movimiento1=""
+  $movimiento=""
   $limite=0
   $mAux=""
-
-
-end
 
 get '/' do
   erb :saludo
@@ -45,7 +42,8 @@ get '/crearTabla' do
   erb :crearTabla
 end
 post '/actionMover' do
-  $movimiento1=params[:movimiento1]
+  $movimiento=params[:movimiento1]
+  generar()
   erb :movimientos
 end
 
@@ -55,22 +53,17 @@ post '/actionCrearTabla' do
   erb :principal
 end
 
-
-
-
-
-
   def avan()
    
-    
+      verifica()
         if $orientacion =="N"
-          $posicionY = $posicionY + 1
+          $posicionY = $posicionY.to_i + 1
         elsif $orientacion =="E"
-            $posicionX = $posicionX + 1
+            $posicionX = $posicionX.to_i + 1
         elsif $orientacion =="S"
-            $posicionY = $posicionY- 1
+            $posicionY = $posicionY.to_i- 1
         elsif $orientacion == "O"
-            $posicionX = $posicionX- 1 
+            $posicionX = $posicionX.to_i- 1 
         end
     
   end
@@ -99,7 +92,7 @@ end
 
 
   def generar()
-    $movimiento1.each_char{ |c|
+    $movimiento.each_char{ |c|
       case c
       when 'A'
         avan()
@@ -109,4 +102,24 @@ end
         izq()
       end
      }
+  end
+
+  def verifica()
+    if $orientacion=="N"
+      if $posicionY==$alto.to_i
+        $limite=1
+      end  
+    elsif $orientacion=="E"
+      if $posicionX==$ancho.to_i
+        $limite=1
+      end
+    elsif $orientacion=="S"
+      if $posicionY==1
+        $limite=1
+      end
+    elsif $orientacion=="O"
+      if $posicionX==1
+        $limite=1
+      end
+    end
   end
